@@ -1,0 +1,60 @@
+.buttonA {
+    width:140px;
+    height:85px;
+    font-size: 1.4em;
+    font-weight: bold;
+	background-color: #008000;
+	color: #fff;
+}
+.buttonA:hover {
+	background-color: #00ff00;
+}
+
+.buttonC {
+    width:140px;
+    height:85px;
+    font-size: 1.4em;
+    font-weight: bold;
+	background-color: #8a2be2;
+	background-color: #000080;
+	color: #fff;
+}
+.buttonC:hover {
+	background-color: #0000ff;
+}
+
+.buttonD {
+    width:140px;
+    height:85px;
+    font-size: 1.5em;
+    font-weight: bold;
+	background-color: #d2691e;
+	color: #fff;
+}
+.buttonD:hover {
+	background-color: #daa520;
+}
+
+.buttonE {
+    width:140px;
+    height:85px;
+    font-size: 1.4em;
+    font-weight: bold;
+	background-color: #800000;
+	color: #fff;
+}
+.buttonE:hover {
+	background-color: #ff0000;
+}
+
+.buttonF {
+    width:127px;
+    height:50px;
+    font-size: 1.4em;
+    font-weight: bold;
+	background-color: #8a2be2;
+	color: #fff;
+}
+.buttonF:hover {
+	background-color: #483d8b;
+}

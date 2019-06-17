@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<moduleContext>
+
+  <conf>
+    <moduleName>SotaSample</moduleName>
+    <description>sample2</description>
+  </conf>
+
+  <remote name="decoder">
+   <group>robot</group>
+   <role>ActionDecoder</role>
+  </remote>
+
+  <disclosure>
+   <group>robot</group>
+   <role>sample</role>
+ </disclosure>
+
+</moduleContext>

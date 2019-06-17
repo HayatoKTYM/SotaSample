@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<moduleContext>
+
+  <conf>
+    <moduleName>SotaSample</moduleName>
+    <description>sample2</description>
+  </conf>
+
+  <remote name="sota">
+   <group>sota</group>
+   <role>ActionPlayer</role>
+  </remote>
+
+  <disclosure>
+   <group>sota</group>
+   <role>sample2</role>
+ </disclosure>
+
+</moduleContext>

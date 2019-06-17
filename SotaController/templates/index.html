@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block body %}
+	<table border=2 align="center" width="900" height="30">
+    <tr><td align="center">
+          <form method="post" action="/speak/a" style="display: inline">
+              <input type="submit" value=こんにちは class="buttonD">
+          </form>
+          <form method="post" action="/speak/b" style="display: inline">
+              <input type="submit" value=ありがとう class="buttonD">
+          </form>
+          <form method="post" action="/speak/c" style="display: inline">
+              <input type="submit" value=ごめんね class="buttonD">
+          </form>
+          <form method="post" action="/speak/d" style="display: inline">
+              <input type="submit" value=さようなら class="buttonD">
+          </form>
+          <form method="post" action="/speak/e" style="display: inline">
+              <input type="submit" value=よろしく class="buttonD">
+          </form>
+          <form method="post" action="/speak/f" style="display: inline">
+              <input type="submit" value=お名前は class="buttonD">
+          </form>
+    </td></tr>
+    </table>
+
+    <table class="table2" border=1 align="center" width="1200",height="1000">
+		<tr><td align = "center">
+			<form method="post" action="/head_p/15" style="display: inline">
+					<input type="submit" value="上" class="buttonA">
+			</form>
+    </td></tr>
+		<tr><td align="center">
+        <form method="post" action="/look/-45" style="display: inline">
+            <input type="submit" value="顔極左" class="buttonE">
+        </form>
+        <form method="post" action="/look/-15" style="display: inline">
+            <input type="submit" value="顔左" class="buttonE">
+        </form>
+        <form method="post" action="/head_r/-15" style="display: inline">
+            <input type="submit" value="傾げる左" class="buttonA">
+        </form>
+        <form method="post" action="/home/home" style="display: inline">
+            <input type="submit" value="正面" class="buttonA">
+        </form>
+
+        <form method="post" action="/head_r/15" style="display: inline">
+            <input type="submit" value="傾げる右" class="buttonA">
+        </form>
+				<form method="post" action="/look/15" style="display: inline">
+            <input type="submit" value="顔右" class="buttonE">
+        </form>
+				<form method="post" action="/look/45" style="display: inline">
+            <input type="submit" value="顔極右" class="buttonE">
+        </form>
+    </td></tr>
+		<tr><td align = "center">
+			<form method="post" action="/head_p/-15" style="display: inline">
+					<input type="submit" value="下" class="buttonA">
+			</form>
+    </td></tr>
+		<tr><td>
+        <p align="center">身体</p>
+    </td></tr>
+    <tr><td align="center">
+        <form method="post" action="/l_elb/-30" style="display: inline">
+            <input type="submit" value="左肘前" class="buttonC">
+        </form>
+        <form method="post" action="/l_elb/30" style="display: inline">
+            <input type="submit" value="左肘後" class="buttonC">
+        </form>
+        <form method="post" action="/l_sho/-30" style="display: inline">
+            <input type="submit" value="左肩下" class="buttonC">
+        </form>
+        <form method="post" action="/l_sho/30" style="display: inline">
+            <input type="submit" value="左肩上" class="buttonC">
+        </form>
+				<form method="post" action="/r_sho/-30" style="display: inline">
+            <input type="submit" value="右肩下" class="buttonC">
+        </form>
+        <form method="post" action="/r_sho/30" style="display: inline">
+            <input type="submit" value="右肩上" class="buttonC">
+        </form>
+        <form method="post" action="/r_elb/-30" style="display: inline">
+            <input type="submit" value="右肘前" class="buttonC">
+        </form>
+        <form method="post" action="/r_elb/30" style="display: inline">
+            <input type="submit" value="右肘後" class="buttonC">
+        </form>
+    </td></tr>
+    <tr><td align = "center">
+        <form method="post" action="/body_y/-45" style="display: inline">
+            <input type="submit" value="身体極左" class="buttonE">
+        </form>
+        <form method="post" action="/body_y/-20" style="display: inline">
+            <input type="submit" value="身体左" class="buttonE">
+        </form>
+        <form method="post" action="/body_y/20" style="display: inline">
+            <input type="submit" value="身体右" class="buttonE">
+        </form>
+				<form method="post" action="/body_y/45" style="display: inline">
+            <input type="submit" value="身体極右" class="buttonE">
+        </form>
+    </td></tr>
+
+
+
+
+{% endblock %}
